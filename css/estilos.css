@@ -1,0 +1,82 @@
+:root{
+ --celeste:#6bc3cb ;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+header{
+	font-size: 16px;
+	height: 20rem;
+	background:linear-gradient(rgba(0,0,0,.50)0%,rgba(0,0,0,.50)100%), url("../img/ciudad.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1{
+	font-size: 4rem;
+	color: var(--celeste);
+}
+.navbar img{
+	width: 60px;
+}
+
+.navbar{
+	position: sticky;
+	top: 0;
+	
+}
+main{
+		font-family: sans-serif;
+
+}
+main .main-content{
+	padding-top: 1rem;
+}
+
+article.article-content{
+	padding: 1rem 0.5rem;
+}
+main h1,h2{
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+col.manuel img{
+	width: 50%;
+}
+article i{
+	padding-right: 1rem;
+}
+
+.contenido{
+	padding-top: 1rem;
+}
+
+.agrandar{
+	animation-name: agrandar;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+
+}
+@keyframes agrandar{
+	from{
+		transform: scale(1.0);
+	}
+	to{
+transform: scale(1.1);
+	}
+}
+
+footer .footer-content{
+	
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}

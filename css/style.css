@@ -1,0 +1,113 @@
+:root{
+ --celeste:#6bc3cb ;
+}
+
+html{
+scroll-behavior: smooth;
+}
+article{
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+
+h6{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+
+}
+h5{
+	font-family: 'Open Sans Condensed',sans-serif;
+	font-weight: 700;
+
+}
+ul.social{
+	list-style: none;
+	display: flex;
+
+	justify-content: center;
+
+}
+
+ul.social li{
+	padding-right: 0.5rem;
+
+}
+
+.contenido{
+	min-height: 400px;
+	padding: 1rem;
+}
+.article-content{
+		
+}
+
+.logotipo{
+	width: 60px;
+}
+.banner{
+	width: 350px;
+	border-radius: 50%;
+	box-shadow: 10px 10px;
+
+}
+.container{
+	padding-top: 6.5rem;
+}
+
+.nav-link{
+	text-transform: uppercase;
+}
+
+ul.vinetas{
+	list-style: square;
+	list-style-position: inside;
+	cursor: pointer;
+	text-align: justify;
+
+}
+ul.vinetas,p{
+	font-size: .9rem;
+}
+.titulo-animar{
+	animation-name: desplazar;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+
+}
+@keyframes desplazar{
+from{
+	opacity:0.5;
+}
+to{
+	opacity: 1;
+}
+}
+i{
+	padding-right: 1rem;
+	color: gold;
+}
+article{
+min-height: 100vh;
+}
+
+article h3{
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+article h2{
+	text-transform: uppercase;
+	padding: 1rem
+}
+article h4{
+	font-size: 1rem;
+	font-weight: bold;
+}
+footer{
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+	background: #c2c2c2;
+}
